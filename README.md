@@ -27,16 +27,15 @@ Put them under pysot/experiments/<MODEL_NAME>
 2. Perturbation Generators  
 Download ([CSA checkpoints](https://github.com/MasterBin-IIAU/CSA/blob/master/README.md)) you need, then put them under checkpoints/<MODEL_NAME>/
 #### Download Dataset
-Evaluation toolkit can support the following datasets:
-
 [OTB2015](http://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf) 
 [VOT2018](http://votchallenge.net) 
-## Training
+#### Training
 ```cd pysot```  
+training your own model:
 ```
 python train_diff.py
 ```
-## Testing
+#### Testing
 open ```common_path.py```, choose the dataset and siamese model to use.  
 open ```GAN_utils_xx.py```, choose the generator model to use.  
 ```cd pysot/tools```  
