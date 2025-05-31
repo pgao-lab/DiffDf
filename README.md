@@ -1,4 +1,5 @@
-# Towards Effective and Efficient Adversarial Defense with Diffusion Models for Robust Visual Tracking
+# DiffDf
+## Towards Effective and Efficient Adversarial Defense with Diffusion Models for Robust Visual Tracking
 
 ## Environment
 
@@ -30,15 +31,19 @@ Download ([CSA checkpoints](https://github.com/MasterBin-IIAU/CSA/blob/master/RE
 [OTB2015](http://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf) 
 [VOT2018](http://votchallenge.net) 
 #### Training
+
 ```cd pysot```  
-training your own model:
+
+train your own model
 ```
 python train_diff.py
 ```
 #### Testing
 open ```common_path.py```, choose the dataset and siamese model to use.  
 open ```GAN_utils_xx.py```, choose the generator model to use.  
+
 ```cd pysot/tools```  
+
 run experiments about defensing **search regions**  
 ```
 python run_search_diff.py
