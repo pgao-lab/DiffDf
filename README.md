@@ -56,3 +56,15 @@ run experiments about defensing **both search regions and the template**
 ```
 python run_template_search_diff.py
 ```
+
+## Citation
+
+```bibtex
+@article{diffdf,
+  title={Towards Effective and Efficient Adversarial Defense with Diffusion Models for Robust Visual Tracking},
+  author={Xu, Long and Gao, Peng and Tang, Wen-Jia and Wang, Fei and Yuan, Ru-Yue},
+  journal={Information Fusion},
+  year={2025},
+  publisher={Elsevier}
+}
+```
