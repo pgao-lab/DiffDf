@@ -13,7 +13,7 @@
 ### Steps
 #### Clone the repository
 ```
-git clone https://github.com/6uolnxps/DiffDf.git
+git clone https://github.com/pgao-lab/DiffDf.git
 cd <Project_name>
 ```
 #### Install dependencies
