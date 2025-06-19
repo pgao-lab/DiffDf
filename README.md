@@ -56,7 +56,10 @@ run experiments about defensing **both search regions and the template**
 ```
 python run_template_search_diff.py
 ```
-
+## References
+* [PySOT](https://github.com/STVIR/pysot) 
+* [CSA](https://github.com/MasterBin-IIAU/CSA)
+  
 ## Citation
 
 ```bibtex
